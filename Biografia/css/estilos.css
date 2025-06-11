@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "calibri light" ;
+}
+
+.contenedor {
+    background: tomato;
+   width: 80%S;
+   margin:auto;
+}
+
+header{
+        height: 400px;
+    background-image: url("../Imagenes/gym.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+   background: white;
+   padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(26, 3, 226);
+    border-radius: 50%;
+    margin: -90px auto 20px auto;
+    border: 6px solid #ffffff; 
+}
+
+main .foto img{
+     width:100% ;
+     border-radius: 50%;
+}
+
+main .texto h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+main .texto p{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+
+}
+
+.boton a{
+    background: rgb(26, 3, 226);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-style: 18px;
+    display: block;
+    padding: 5px 10px;
+    width: 60px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.boton a:hover{
+    background: rgb(26, 3, 226);
+}
+
+
+
+
+footer{
+    background:rgb(26, 3, 226);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
